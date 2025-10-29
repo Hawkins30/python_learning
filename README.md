@@ -8,13 +8,29 @@ This repo documents my progress from complete beginner to building real, securit
 Each stage reflects a mix of learning, experimenting, and hands-on coding.
 
 ----------------------------------------------------
-🧠 TECH STACK
+## 🧠 Tech Stack
 ----------------------------------------------------
-- Python (Core Language)
-- Visual Studio Code (Editor)
-- WSL (Linux Environment)
-- Git (Version Control)
-- GitHub (Repository Hosting)
+## 🧠 Tech Stack
+
+![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)
+![Windows 11](https://img.shields.io/badge/Windows%2011-0078D6?style=for-the-badge&logo=windows11&logoColor=white)
+![GRUB](https://img.shields.io/badge/GRUB-333333?style=for-the-badge&logo=gnu&logoColor=white)
+![UEFI](https://img.shields.io/badge/UEFI-2D2D2D?style=for-the-badge&logo=firmware&logoColor=white)
+![Bash](https://img.shields.io/badge/Bash-121011?style=for-the-badge&logo=gnubash&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+![WSL](https://img.shields.io/badge/WSL-4EAA25?style=for-the-badge&logo=linux&logoColor=white)
+
+---
+
+![Last Commit](https://img.shields.io/github/last-commit/Hawkins30/python_learning?style=for-the-badge)
+![Repo Size](https://img.shields.io/github/repo-size/Hawkins30/python_learning?style=for-the-badge)
+![Issues](https://img.shields.io/github/issues/Hawkins30/python_learning?style=for-the-badge)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS%20Code-0078D4?style=for-the-badge&logo=visualstudiocode&logoColor=white)
+![Markdown](https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white)
+![Terminal](https://img.shields.io/badge/Terminal-4D4D4D?style=for-the-badge&logo=powershell&logoColor=white)
+
 
 ----------------------------------------------------
 📘 LEARNING TIMELINE
