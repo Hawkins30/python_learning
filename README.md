@@ -38,14 +38,19 @@ Day 3:
   - Practised for and while loops.
   - Created reusable functions using def.
 
-PROJECTS
---------
-Project 1: Password Strength Checker
-  - Checked length, symbols, and complexity.
-Project 2: File Integrity Checker
-  - Compared file hashes using SHA-256.
-Project 3: Simple Login System
-  - Created username/password text-based system.
+## 🧩 Projects
+
+### 🧱 Project 1: Password Strength Checker
+- Checked password length, symbols, and complexity.
+- Rated password strength as weak, moderate, or strong.
+
+### 🧰 Project 2: File Integrity Checker
+- Compared two files using SHA-256 hashing.
+- Detected file tampering or corruption.
+
+### 🔑 Project 3: Simple Login System
+- Created a text-file database for usernames and passwords.
+- Built a menu with options to register, log in, or exit.
 
 NEXT STEPS
 ----------
