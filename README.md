@@ -98,6 +98,24 @@ NEXT STEPS
 | login_system/     | Simple Login System                              |
 | (root directory)  | Early Python learning exercises (loops, if, etc.)|
 
+## 🗂 Repository Structure
+
+```mermaid
+graph TD
+A[python_learning] --> B[security_tools]
+A --> C[login_system]
+A --> D[README.md]
+B --> E[file_integrity_checker.py]
+B --> F[password_strength_checker.py]
+C --> G[simple_login.py]
+```
+
+## 🎯 Current Learning Focus
+- Deepen understanding of Python fundamentals.
+- Learn secure coding and file handling.
+- Explore cybersecurity tools and automation.
+- Build small utilities for personal and educational use.
+
 ----------------------------------------------------
 🚀 NEXT GOALS
 ----------------------------------------------------
@@ -123,3 +141,14 @@ Next Milestone: Implement Hash-Based Login
 GitHub: https://github.com/Hawkins30/python_learning
 Last Updated: October 29, 2025
 
+---
+
+## 💬 Connect With Me
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/your-link-here)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Hawkins30)
+
+---
+
+## 🧾 License
+This repository is for **personal learning and educational purposes**.  
+All code and notes are written by Alex Hawkins.
