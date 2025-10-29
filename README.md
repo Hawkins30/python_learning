@@ -53,6 +53,25 @@ Day 3:
   - Practised for and while loops.
   - Created reusable functions using def.
 
+SECURE CODING
+-------------
+Day 4:
+  - Learned what password hashing is and why it’s vital for security.
+  - Explored the `hashlib` module for creating secure SHA-256 hashes.
+  - Created a reusable `hash_password()` function.
+  - Upgraded the login system to store **hashed passwords** instead of plain text.
+  - Learned how to compare hashed passwords for secure logins.
+
+DATA SECURITY & STORAGE
+-----------------------
+Day 5:
+  - Discovered “salting” — adding unique random data to each password hash.
+  - Used Python’s `os.urandom()` and `binascii` to generate salts.
+  - Switched from `.txt` to a `.json` file for structured, safer storage.
+  - Implemented login verification using both hash and salt.
+  - Began exploring encryption vs. hashing concepts.
+
+
 ## 🧩 Projects
 
 ### 🧱 Project 1: Password Strength Checker
@@ -67,26 +86,42 @@ Day 3:
 - Created a text-file database for usernames and passwords.
 - Built a menu with options to register, log in, or exit.
 
+### 🔒 Project 4: Secure Login System (v2)
+- Learned about password hashing using the `hashlib` module.
+- Rebuilt the login system to store hashed passwords instead of plain text.
+- Implemented user registration, secure login comparison, and simple file handling.
+- Verified that the system safely stores non-reversible password hashes (SHA-256).
+
+### 🧂 Project 5: Salted JSON Login System (v3)
+- Introduced password **salting** to make each stored hash unique.
+- Used `os.urandom()` and `binascii` to generate and manage salts.
+- Moved from `.txt` to `.json` storage for structured user data.
+- Strengthened overall security by combining salt + hash verification.
+
 NEXT STEPS
 ----------
-  - Add password hashing with hashlib.
-  - Build password leak checker.
-  - Explore sockets, JSON, and encryption.
+- Build a password leak checker using public hash databases.
+- Create a basic encryption/decryption demo.
+- Add error handling and colourful console messages.
+- Use `json` and `os` modules for better data storage.
+- Explore sockets, hashing collisions, and simple networking tools.
 
 ----------------------------------------------------
 📊 SUMMARY OF PROGRESS
 ----------------------------------------------------
 
-| Topic                           | Description                                     | Status      |
-|---------------------------------|-------------------------------------------------|--------------|
-| Environment Setup               | Installed Python, VS Code, WSL                  | ✅ Complete |
-| Python Basics                   | Variables, types, input/output, print()         | ✅ Complete |
-| Control Flow                    | if, elif, else statements                       | ✅ Complete |
-| Loops & Functions               | for, while, def                                 | ✅ Complete |
-| Project 1: Password Checker     | Tested password complexity rules                | ✅ Complete |
-| Project 2: File Integrity Check | Compared file hashes using hashlib              | ✅ Complete |
-| Project 3: Simple Login System  | Created text-based user login menu              | ✅ Complete |
-| Next Project                    | Hash-based login & password leak checker        | 🔜 Upcoming |
+| Topic                           | Description                                       | Status       |
+|---------------------------------|---------------------------------------------------|---------------|
+| Environment Setup               | Installed Python, VS Code, WSL                    | ✅ Complete  |
+| Python Basics                   | Variables, types, input/output, print()           | ✅ Complete  |
+| Control Flow                    | if, elif, else statements                         | ✅ Complete  |
+| Loops & Functions               | for, while, def                                   | ✅ Complete  |
+| Project 1: Password Checker     | Tested password complexity rules                  | ✅ Complete  |
+| Project 2: File Integrity Check | Compared file hashes using hashlib                | ✅ Complete  |
+| Project 3: Simple Login System  | Created text-based user login menu                | ✅ Complete  |
+| Project 4: Secure Login System  | Added password hashing with hashlib (SHA-256)     | ✅ Complete  |
+| Project 5: Salted JSON Login    | Added password salting and JSON-based storage     | ✅ Complete  |
+| Next Project                    | Password leak checker & encryption demo           | 🔜 Upcoming  |
 
 ----------------------------------------------------
 🧩 PROJECTS IN THIS REPOSITORY
@@ -120,19 +155,20 @@ C --> G[simple_login.py]
 🚀 NEXT GOALS
 ----------------------------------------------------
 
-- Add password hashing to login system.
-- Create password leak checker.
-- Add color output for readability.
-- Learn JSON and file parsing.
-- Explore encryption and socket programming.
+- Build a password leak checker using SHA-1 hashes and public breach databases.
+- Create an encryption demo (using symmetric algorithms like Fernet or AES).
+- Add colour-coded console output for readability.
+- Implement error logging and exception handling for stability.
+- Introduce basic networking tools using Python’s `socket` library.
+- Explore Python’s `json`, `os`, and `secrets` modules in more depth.
 
 ----------------------------------------------------
 📅 SNAPSHOT
 ----------------------------------------------------
 
 Start Date: October 2025  
-Current Progress: 3 Projects Completed  
-Next Milestone: Implement Hash-Based Login  
+Current Progress: 5 Projects Completed  
+Next Milestone: Password Leak Checker + Encryption Demo 
 
 ----------------------------------------------------
 📂 REPOSITORY
