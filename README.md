@@ -1,34 +1,105 @@
-# 🐍 My Python Learning Journey
+====================================================
+🐍 MY PYTHON LEARNING JOURNEY
+====================================================
 
-This repository tracks my progress as I learn Python from the very beginning.  
-I’m using this to practice core coding concepts and build small, security-related tools.
+Welcome to my personal Python learning repository!
 
----
+This repo documents my progress from complete beginner to building real, security-related projects — step by step. 
+Each stage reflects a mix of learning, experimenting, and hands-on coding.
 
-## 📘 1. What I’ve Learned So Far
-- Setting up Python, VS Code, and WSL.
-- Basic commands, running scripts, and using the terminal.
-- Printing text and working with variables.
-- If statements and logic flow.
-- Loops (`for` and `while`).
-- Functions and reusing code.
+----------------------------------------------------
+🧠 TECH STACK
+----------------------------------------------------
+- Python (Core Language)
+- Visual Studio Code (Editor)
+- WSL (Linux Environment)
+- Git (Version Control)
+- GitHub (Repository Hosting)
 
----
+----------------------------------------------------
+📘 LEARNING TIMELINE
+----------------------------------------------------
 
-## 🧱 2. Projects Completed
-| Project | Description |
-|----------|--------------|
-| **Password Strength Checker** | Tests password length, numbers, and symbols. |
-| **File Integrity Checker** | Compares SHA256 hashes to detect file changes. |
-| **Simple Login System** | Stores usernames/passwords in a text file for login simulation. |
+SETUP & BASICS
+--------------
+Day 1:
+  - Installed Python, VS Code, and WSL.
+  - Learned print(), variables, input(), and basic maths.
 
----
+LOGIC & FLOW
+-------------
+Day 2:
+  - Learned if, elif, else for decision-making.
+  - Built a simple login check program.
 
-## 🚀 3. What’s Next
-- Add password hashing to improve security.
-- Build a password leak checker.
-- Explore file handling, networking, and encryption.
+LOOPS & FUNCTIONS
+-----------------
+Day 3:
+  - Practised for and while loops.
+  - Created reusable functions using def.
 
----
+PROJECTS
+--------
+Project 1: Password Strength Checker
+  - Checked length, symbols, and complexity.
+Project 2: File Integrity Checker
+  - Compared file hashes using SHA-256.
+Project 3: Simple Login System
+  - Created username/password text-based system.
 
-GitHub Repository: [https://github.com/Hawkins30/python_learning](https://github.com/Hawkins30/python_learning)
+NEXT STEPS
+----------
+  - Add password hashing with hashlib.
+  - Build password leak checker.
+  - Explore sockets, JSON, and encryption.
+
+----------------------------------------------------
+📊 SUMMARY OF PROGRESS
+----------------------------------------------------
+
+| Topic                           | Description                                     | Status      |
+|---------------------------------|-------------------------------------------------|--------------|
+| Environment Setup               | Installed Python, VS Code, WSL                  | ✅ Complete |
+| Python Basics                   | Variables, types, input/output, print()         | ✅ Complete |
+| Control Flow                    | if, elif, else statements                       | ✅ Complete |
+| Loops & Functions               | for, while, def                                 | ✅ Complete |
+| Project 1: Password Checker     | Tested password complexity rules                | ✅ Complete |
+| Project 2: File Integrity Check | Compared file hashes using hashlib              | ✅ Complete |
+| Project 3: Simple Login System  | Created text-based user login menu              | ✅ Complete |
+| Next Project                    | Hash-based login & password leak checker        | 🔜 Upcoming |
+
+----------------------------------------------------
+🧩 PROJECTS IN THIS REPOSITORY
+----------------------------------------------------
+
+| Folder            | Description                                      |
+|-------------------|--------------------------------------------------|
+| security_tools/   | Password Strength Checker & File Integrity Tool  |
+| login_system/     | Simple Login System                              |
+| (root directory)  | Early Python learning exercises (loops, if, etc.)|
+
+----------------------------------------------------
+🚀 NEXT GOALS
+----------------------------------------------------
+
+- Add password hashing to login system.
+- Create password leak checker.
+- Add color output for readability.
+- Learn JSON and file parsing.
+- Explore encryption and socket programming.
+
+----------------------------------------------------
+📅 SNAPSHOT
+----------------------------------------------------
+
+Start Date: October 2025  
+Current Progress: 3 Projects Completed  
+Next Milestone: Implement Hash-Based Login  
+
+----------------------------------------------------
+📂 REPOSITORY
+----------------------------------------------------
+
+GitHub: https://github.com/Hawkins30/python_learning
+Last Updated: October 29, 2025
+
