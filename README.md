@@ -71,6 +71,15 @@ Day 5:
   - Implemented login verification using both hash and salt.
   - Began exploring encryption vs. hashing concepts.
 
+CYBERSECURITY TOOLS
+-------------------
+Day 6:
+  - Learned how password leak databases (like *Have I Been Pwned*) work.
+  - Used Python’s `requests` library to access the Pwned Passwords API.
+  - Implemented a local, privacy-safe password checker.
+  - Compared SHA-1 hashes to detect breached passwords.
+  - Understood the difference between hashing and encryption.
+
 
 ## 🧩 Projects
 
@@ -98,6 +107,11 @@ Day 5:
 - Moved from `.txt` to `.json` storage for structured user data.
 - Strengthened overall security by combining salt + hash verification.
 
+### 🔍 Project 6: Password Leak Checker
+- Built a tool that checks if passwords appear in known data breaches.
+- Uses the *Have I Been Pwned* API with k-anonymity for privacy.
+- Compares SHA-1 hashes locally without exposing user passwords.
+
 NEXT STEPS
 ----------
 - Build a password leak checker using public hash databases.
@@ -121,7 +135,7 @@ NEXT STEPS
 | Project 3: Simple Login System  | Created text-based user login menu                | ✅ Complete  |
 | Project 4: Secure Login System  | Added password hashing with hashlib (SHA-256)     | ✅ Complete  |
 | Project 5: Salted JSON Login    | Added password salting and JSON-based storage     | ✅ Complete  |
-| Next Project                    | Password leak checker & encryption demo           | 🔜 Upcoming  |
+| Project 6: Password Leak Checker | Checked passwords against breach database | ✅ Complete |
 
 ----------------------------------------------------
 🧩 PROJECTS IN THIS REPOSITORY
@@ -139,10 +153,18 @@ NEXT STEPS
 graph TD
 A[python_learning] --> B[security_tools]
 A --> C[login_system]
-A --> D[README.md]
-B --> E[file_integrity_checker.py]
-B --> F[password_strength_checker.py]
-C --> G[simple_login.py]
+A --> D[secure_login]
+A --> E[salted_login]
+A --> F[leak_checker]
+A --> G[README.md]
+
+B --> B1[file_integrity_checker.py]
+B --> B2[password_strength_checker.py]
+
+C --> C1[simple_login.py]
+D --> D1[secure_login.py]
+E --> E1[salted_login.py]
+F --> F1[leak_checker.py]
 ```
 
 ## 🎯 Current Learning Focus
@@ -167,8 +189,8 @@ C --> G[simple_login.py]
 ----------------------------------------------------
 
 Start Date: October 2025  
-Current Progress: 5 Projects Completed  
-Next Milestone: Password Leak Checker + Encryption Demo 
+Current Progress: 6 Projects Completed  
+Next Milestone: Encryption Demo (Fernet) and Secure File Handling  
 
 ----------------------------------------------------
 📂 REPOSITORY
