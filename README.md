@@ -10,7 +10,6 @@ Each stage reflects a mix of learning, experimenting, and hands-on coding.
 ----------------------------------------------------
 ## 🧠 Tech Stack
 ----------------------------------------------------
-## 🧠 Tech Stack
 
 ![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)
 ![Windows 11](https://img.shields.io/badge/Windows%2011-0078D6?style=for-the-badge&logo=windows11&logoColor=white)
