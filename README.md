@@ -227,7 +227,7 @@ NEXT STEPS
 | secure_sharing/    | Secure File Sharing & Access Logging System              |
 | cloud_storage/     | Secure Cloud Storage & Key Management System             |
 | (root directory)   | Early Python learning exercises (loops, if, etc.)        |
-   |
+
 ## 🗂 Repository Structure
 
 ```mermaid
