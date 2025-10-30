@@ -196,6 +196,15 @@ Day 19:
   - Implemented add, retrieve, view, and delete functionality for stored accounts.
   - Learned how password managers like KeePass or Bitwarden protect local data.
 
+SECURE NOTES APP (ENCRYPTED TEXT STORAGE)
+-----------------------------------------
+Day 20:
+  - Created a secure note-taking system with full encryption.
+  - Implemented password-based key derivation using PBKDF2.
+  - Encrypted and decrypted note content with Fernet.
+  - Added the ability to add, view, edit, delete, and list notes.
+  - Learned how encrypted text storage works in apps like Evernote or Notion.
+
 ## 🧩 Projects
 
 ### 🧱 Project 1: Password Strength Checker
@@ -306,6 +315,13 @@ Day 19:
 - Supported adding, viewing, retrieving, and deleting passwords.
 - Demonstrates principles behind real-world password management tools.
 
+### 🧾 Project 20: Secure Notes App (Encrypted Text Storage)
+- Built an encrypted local note-taking system protected by a master password.
+- Used PBKDF2 to generate a cryptographic key from the password.
+- Stored all note content encrypted in JSON format.
+- Supported creating, viewing, editing, and deleting notes securely.
+- Demonstrates how encrypted cloud note apps handle local storage security.
+
 NEXT STEPS
 ----------
 
@@ -339,7 +355,8 @@ NEXT STEPS
 | Project 17: Secure Email System   | Combined RSA, Fernet, and signatures for emails   | ✅ Complete  |
 | Project 18: Secure File Vault     | Password-protected encrypted vault system         | ✅ Complete  |
 | Project 19: Secure Keychain       | Local encrypted password manager (PBKDF2 + Fernet)| ✅ Complete  |
-| Next Project                      | Secure Notes App (Encrypted Text Storage)         | 🔜 Upcoming  |
+| Project 20: Secure Notes App      | Encrypted text storage with password protection   | ✅ Complete  |
+| Next Project                      | Secure Desktop App (GUI) + SQLite Integration     | 🔜 Upcoming  |
 
 ----------------------------------------------------
 🧩 PROJECTS IN THIS REPOSITORY
@@ -365,6 +382,7 @@ NEXT STEPS
 | secure_email/           | Secure Email System (Encryption + Signatures)            |
 | secure_vault/           | Secure File Vault (Password-Protected Storage)           |
 | secure_keychain/        | Secure Keychain & Password Manager (PBKDF2 + Fernet)     |
+| secure_notes/           | Secure Notes App (Encrypted Text Storage)                |
 | (root directory)   | Early Python learning exercises (loops, if, etc.)        |
 
 ## 🗂 Repository Structure
@@ -389,6 +407,7 @@ A --> Q[secure_chat]
 A --> R[secure_email]
 A --> S[secure_vault]
 A --> T[secure_keychain]
+A --> U[secure_notes]
 A --> G[README.md]
 
 B --> B1[file_integrity_checker.py]
@@ -411,6 +430,7 @@ Q --> Q2[client.py]
 R --> R1[secure_email.py]
 S --> S1[secure_vault.py]
 T --> T1[secure_keychain.py]
+U --> U1[secure_notes.py]
 ```
 
 ## 🎯 Current Learning
