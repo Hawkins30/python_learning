@@ -80,6 +80,13 @@ Day 6:
   - Compared SHA-1 hashes to detect breached passwords.
   - Understood the difference between hashing and encryption.
 
+ENCRYPTION BASICS
+-----------------
+Day 7:
+  - Learned difference between hashing (one-way) and encryption (two-way).
+  - Installed and used the `cryptography` library.
+  - Implemented key generation, encryption, and decryption.
+  - Stored keys in a file for safe reuse.
 
 ## 🧩 Projects
 
@@ -112,13 +119,14 @@ Day 6:
 - Uses the *Have I Been Pwned* API with k-anonymity for privacy.
 - Compares SHA-1 hashes locally without exposing user passwords.
 
+### 🔐 Project 7: Fernet Encryption Demo
+- Built a tool that encrypts and decrypts text using Fernet symmetric encryption.
+- Implemented secure key generation and storage.
+- Explored difference between encryption and hashing.
+
 NEXT STEPS
 ----------
-- Build a password leak checker using public hash databases.
-- Create a basic encryption/decryption demo.
-- Add error handling and colourful console messages.
-- Use `json` and `os` modules for better data storage.
-- Explore sockets, hashing collisions, and simple networking tools.
+
 
 ----------------------------------------------------
 📊 SUMMARY OF PROGRESS
@@ -136,6 +144,7 @@ NEXT STEPS
 | Project 4: Secure Login System  | Added password hashing with hashlib (SHA-256)     | ✅ Complete  |
 | Project 5: Salted JSON Login    | Added password salting and JSON-based storage     | ✅ Complete  |
 | Project 6: Password Leak Checker | Checked passwords against breach database | ✅ Complete |
+| Project 7: Fernet Encryption Demo | Implemented message encryption & decryption | ✅ Complete |
 
 ----------------------------------------------------
 🧩 PROJECTS IN THIS REPOSITORY
@@ -156,15 +165,16 @@ A --> C[login_system]
 A --> D[secure_login]
 A --> E[salted_login]
 A --> F[leak_checker]
+A --> H[encryption_demo]
 A --> G[README.md]
 
 B --> B1[file_integrity_checker.py]
 B --> B2[password_strength_checker.py]
-
 C --> C1[simple_login.py]
 D --> D1[secure_login.py]
 E --> E1[salted_login.py]
 F --> F1[leak_checker.py]
+H --> H1[encryption_demo.py]
 ```
 
 ## 🎯 Current Learning Focus
@@ -176,13 +186,6 @@ F --> F1[leak_checker.py]
 ----------------------------------------------------
 🚀 NEXT GOALS
 ----------------------------------------------------
-
-- Build a password leak checker using SHA-1 hashes and public breach databases.
-- Create an encryption demo (using symmetric algorithms like Fernet or AES).
-- Add colour-coded console output for readability.
-- Implement error logging and exception handling for stability.
-- Introduce basic networking tools using Python’s `socket` library.
-- Explore Python’s `json`, `os`, and `secrets` modules in more depth.
 
 ----------------------------------------------------
 📅 SNAPSHOT
