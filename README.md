@@ -106,6 +106,15 @@ Day 9:
   - Added layered menus and secure credential management.
   - Strengthened understanding of applied cryptography and user data isolation.
 
+SECURE FILE SHARING & ACCESS LOGGING
+------------------------------------
+Day 10:
+  - Built a secure file sharing system with access logs.
+  - Learned to record user actions (encryption, decryption, sharing).
+  - Added multi-user file sharing functionality.
+  - Implemented JSON-based logging for audit trails.
+  - Strengthened understanding of user accountability in cybersecurity tools.
+
 ## 🧩 Projects
 
 ### 🧱 Project 1: Password Strength Checker
@@ -153,6 +162,13 @@ Day 9:
 - Supports registration, login, logout, file encryption, and decryption.
 - Demonstrates real-world secure storage workflow.
 
+### 🧾 Project 10: Secure File Sharing & Access Logging
+- Built a secure file sharing system with per-user encryption.
+- Added detailed access logging for encryption, decryption, and sharing events.
+- Enabled sharing between users with individual keys.
+- Created a log viewer to audit file access history.
+
+
 NEXT STEPS
 ----------
 
@@ -176,7 +192,8 @@ NEXT STEPS
 | Project 7: Fernet Encryption Demo | Implemented message encryption & decryption | ✅ Complete |
 | Project 8: File Encryption Tool | Encrypted and decrypted full files securely       | ✅ Complete  |
 | Project 9: Multi-User Storage     | Built multi-user encrypted file storage system    | ✅ Complete  |
-| Next Project                      | Secure file sharing & access logging              | 🔜 Upcoming  |
+| Project 10: Secure Sharing & Logs | Added file sharing between users with access logs | ✅ Complete  |
+| Next Project                      | Secure cloud storage and key management system    | 🔜 Upcoming  |
 
 ----------------------------------------------------
 🧩 PROJECTS IN THIS REPOSITORY
@@ -192,6 +209,7 @@ NEXT STEPS
 | encryption_demo/   | Fernet Encryption Demo for message encryption        |
 | file_encryption/   | File Encryption & Decryption Tool (Fernet-based)     |
 | secure_storage/    | Multi-User Encrypted File Storage System              
+| secure_sharing/    | Secure File Sharing & Access Logging System              |
 | (root directory)   | Early Python learning exercises (loops, if, etc.)        |
    |
 ## 🗂 Repository Structure
@@ -206,6 +224,7 @@ A --> F[leak_checker]
 A --> H[encryption_demo]
 A --> I[file_encryption]
 A --> J[secure_storage]
+A --> K[secure_sharing]
 A --> G[README.md]
 
 B --> B1[file_integrity_checker.py]
@@ -217,9 +236,10 @@ F --> F1[leak_checker.py]
 H --> H1[encryption_demo.py]
 I --> I1[file_encryption.py]
 J --> J1[secure_storage.py]
+K --> K1[secure_sharing.py]
 ```
 
-## 🎯 Current Learning Focus
+## 🎯 Current Learning K --> K1[secure_sharing.py]Focus
 - Deepen understanding of Python fundamentals.
 - Learn secure coding and file handling.
 - Explore cybersecurity tools and automation.
