@@ -160,6 +160,15 @@ Day 15:
   - Digitally signed files with the sender’s private key and verified with the sender’s public key.
   - Ensured data confidentiality, authenticity, and integrity during transfer.
 
+SECURE REAL-TIME CHAT SYSTEM
+----------------------------
+Day 16:
+  - Learned socket programming and network communication basics.
+  - Built a local encrypted chat system between two users.
+  - Implemented symmetric encryption (Fernet) for message security.
+  - Ensured all data is transmitted securely, with no plain text ever sent.
+  - Simulated how real-world encrypted messengers and HTTPS use encryption keys.
+
 ## 🧩 Projects
 
 ### 🧱 Project 1: Password Strength Checker
@@ -244,6 +253,12 @@ Day 15:
 - Prevented tampering or impersonation through signature verification.
 - Mimics real-world secure data transmission (similar to HTTPS or email encryption).
 
+### 💬 Project 16: Secure Real-Time Chat System
+- Built a local client-server chat using Python sockets.
+- Messages are encrypted using Fernet before being sent.
+- Decrypted instantly on receipt for real-time communication.
+- Simulates secure, end-to-end encrypted messaging systems.
+
 NEXT STEPS
 ----------
 
@@ -273,7 +288,8 @@ NEXT STEPS
 | Project 13: Encrypted Messaging   | Created encrypted messaging system with RSA keys  | ✅ Complete  |
 | Project 14: Digital Signatures    | Built message signing & verification system       | ✅ Complete  |
 | Project 15: Secure File Transfer  | Combined encryption & signatures for file transfer| ✅ Complete  |
-| Next Project                      | Build Secure Chat with Real-Time Message Exchange | 🔜 Upcoming  |
+| Project 16: Secure Chat System    | Real-time encrypted messaging using sockets       | ✅ Complete  |
+| Next Project                      | Secure Email System with Encryption & Signatures  | 🔜 Upcoming  |
 
 ----------------------------------------------------
 🧩 PROJECTS IN THIS REPOSITORY
@@ -295,6 +311,7 @@ NEXT STEPS
 | encrypted_messaging/   | Encrypted Messaging System with RSA Key Exchange         |
 | digital_signatures/    | Digital Signature & Message Authentication System        |
 | secure_file_transfer/   | Secure File Transfer System (Encryption + Signing)       |
+| secure_chat/            | Secure Real-Time Chat System (Encrypted Client/Server)   |
 | (root directory)   | Early Python learning exercises (loops, if, etc.)        |
 
 ## 🗂 Repository Structure
@@ -315,6 +332,7 @@ A --> M[two_factor_auth]
 A --> N[encrypted_messaging]
 A --> O[digital_signatures]
 A --> P[secure_file_transfer]
+A --> Q[secure_chat]
 A --> G[README.md]
 
 B --> B1[file_integrity_checker.py]
@@ -332,6 +350,8 @@ M --> M1[two_factor_auth.py]
 N --> N1[encrypted_messaging.py]
 O --> O1[digital_signatures.py]
 P --> P1[secure_file_transfer.py]
+Q --> Q1[server.py]
+Q --> Q2[client.py]
 ```
 
 ## 🎯 Current Learning K --> K1[secure_sharing.py]Focus
