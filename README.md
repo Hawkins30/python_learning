@@ -169,6 +169,15 @@ Day 16:
   - Ensured all data is transmitted securely, with no plain text ever sent.
   - Simulated how real-world encrypted messengers and HTTPS use encryption keys.
 
+SECURE EMAIL SYSTEM (ENCRYPTION + SIGNATURES)
+---------------------------------------------
+Day 17:
+  - Combined encryption, digital signatures, and storage into one workflow.
+  - Built a local secure email system with inbox/outbox simulation.
+  - Used RSA for key exchange and Fernet for message encryption.
+  - Digitally signed all messages for sender verification.
+  - Ensured confidentiality, authenticity, and integrity of stored messages.
+
 ## 🧩 Projects
 
 ### 🧱 Project 1: Password Strength Checker
@@ -259,6 +268,12 @@ Day 16:
 - Decrypted instantly on receipt for real-time communication.
 - Simulates secure, end-to-end encrypted messaging systems.
 
+### 📧 Project 17: Secure Email System (Encryption + Signatures)
+- Created a secure local “email” environment between users.
+- Messages are encrypted with Fernet and keys exchanged via RSA.
+- Digital signatures verify message integrity and sender identity.
+- Simulates how encrypted email (PGP-style) works internally.
+
 NEXT STEPS
 ----------
 
@@ -289,7 +304,8 @@ NEXT STEPS
 | Project 14: Digital Signatures    | Built message signing & verification system       | ✅ Complete  |
 | Project 15: Secure File Transfer  | Combined encryption & signatures for file transfer| ✅ Complete  |
 | Project 16: Secure Chat System    | Real-time encrypted messaging using sockets       | ✅ Complete  |
-| Next Project                      | Secure Email System with Encryption & Signatures  | 🔜 Upcoming  |
+| Project 17: Secure Email System   | Combined RSA, Fernet, and signatures for emails   | ✅ Complete  |
+| Next Project                      | Secure File Vault with Password-Protected Access  | 🔜 Upcoming  |
 
 ----------------------------------------------------
 🧩 PROJECTS IN THIS REPOSITORY
@@ -312,6 +328,7 @@ NEXT STEPS
 | digital_signatures/    | Digital Signature & Message Authentication System        |
 | secure_file_transfer/   | Secure File Transfer System (Encryption + Signing)       |
 | secure_chat/            | Secure Real-Time Chat System (Encrypted Client/Server)   |
+| secure_email/           | Secure Email System (Encryption + Signatures)            |
 | (root directory)   | Early Python learning exercises (loops, if, etc.)        |
 
 ## 🗂 Repository Structure
@@ -333,6 +350,7 @@ A --> N[encrypted_messaging]
 A --> O[digital_signatures]
 A --> P[secure_file_transfer]
 A --> Q[secure_chat]
+A --> R[secure_email]
 A --> G[README.md]
 
 B --> B1[file_integrity_checker.py]
@@ -352,6 +370,7 @@ O --> O1[digital_signatures.py]
 P --> P1[secure_file_transfer.py]
 Q --> Q1[server.py]
 Q --> Q2[client.py]
+R --> R1[secure_email.py]
 ```
 
 ## 🎯 Current Learning K --> K1[secure_sharing.py]Focus
