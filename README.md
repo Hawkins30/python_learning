@@ -373,7 +373,7 @@ Q --> Q2[client.py]
 R --> R1[secure_email.py]
 ```
 
-## 🎯 Current Learning K --> K1[secure_sharing.py]Focus
+## 🎯 Current Learning
 - Deepen understanding of Python fundamentals.
 - Learn secure coding and file handling.
 - Explore cybersecurity tools and automation.
