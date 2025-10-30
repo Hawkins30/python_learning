@@ -178,6 +178,15 @@ Day 17:
   - Digitally signed all messages for sender verification.
   - Ensured confidentiality, authenticity, and integrity of stored messages.
 
+SECURE FILE VAULT (PASSWORD-PROTECTED STORAGE)
+----------------------------------------------
+Day 18:
+  - Learned how to turn passwords into encryption keys using PBKDF2.
+  - Built a secure file vault protected by a master password.
+  - Implemented encryption and decryption using Fernet keys derived from a password.
+  - Stored encrypted file data safely in a JSON vault file.
+  - Ensured files cannot be accessed or decrypted without the correct password.
+
 ## 🧩 Projects
 
 ### 🧱 Project 1: Password Strength Checker
@@ -274,6 +283,13 @@ Day 17:
 - Digital signatures verify message integrity and sender identity.
 - Simulates how encrypted email (PGP-style) works internally.
 
+### 🧱 Project 18: Secure File Vault (Password-Protected Storage)
+- Created a password-protected encrypted vault for file storage.
+- Used PBKDF2 key derivation to generate cryptographic keys from user passwords.
+- Encrypted and decrypted files directly from within the vault interface.
+- Stored encrypted content securely in JSON format with unique salt values.
+- Prevents unauthorized access even if vault files are stolen.
+
 NEXT STEPS
 ----------
 
@@ -305,7 +321,8 @@ NEXT STEPS
 | Project 15: Secure File Transfer  | Combined encryption & signatures for file transfer| ✅ Complete  |
 | Project 16: Secure Chat System    | Real-time encrypted messaging using sockets       | ✅ Complete  |
 | Project 17: Secure Email System   | Combined RSA, Fernet, and signatures for emails   | ✅ Complete  |
-| Next Project                      | Secure File Vault with Password-Protected Access  | 🔜 Upcoming  |
+| Project 18: Secure File Vault     | Password-protected encrypted vault system         | ✅ Complete  |
+| Next Project                      | Secure Keychain & Password Manager                | 🔜 Upcoming  |
 
 ----------------------------------------------------
 🧩 PROJECTS IN THIS REPOSITORY
@@ -329,6 +346,7 @@ NEXT STEPS
 | secure_file_transfer/   | Secure File Transfer System (Encryption + Signing)       |
 | secure_chat/            | Secure Real-Time Chat System (Encrypted Client/Server)   |
 | secure_email/           | Secure Email System (Encryption + Signatures)            |
+| secure_vault/           | Secure File Vault (Password-Protected Storage)           |
 | (root directory)   | Early Python learning exercises (loops, if, etc.)        |
 
 ## 🗂 Repository Structure
@@ -351,6 +369,7 @@ A --> O[digital_signatures]
 A --> P[secure_file_transfer]
 A --> Q[secure_chat]
 A --> R[secure_email]
+A --> S[secure_vault]
 A --> G[README.md]
 
 B --> B1[file_integrity_checker.py]
@@ -371,6 +390,7 @@ P --> P1[secure_file_transfer.py]
 Q --> Q1[server.py]
 Q --> Q2[client.py]
 R --> R1[secure_email.py]
+S --> S1[secure_vault.py]
 ```
 
 ## 🎯 Current Learning
