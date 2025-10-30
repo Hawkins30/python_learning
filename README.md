@@ -150,11 +150,15 @@ NEXT STEPS
 🧩 PROJECTS IN THIS REPOSITORY
 ----------------------------------------------------
 
-| Folder            | Description                                      |
-|-------------------|--------------------------------------------------|
-| security_tools/   | Password Strength Checker & File Integrity Tool  |
-| login_system/     | Simple Login System                              |
-| (root directory)  | Early Python learning exercises (loops, if, etc.)|
+| Folder             | Description                                          |
+|--------------------|------------------------------------------------------|
+| security_tools/    | Password Strength Checker & File Integrity Tool      |
+| login_system/      | Simple Login System (text-based)                     |
+| secure_login/      | Login System with SHA-256 password hashing           |
+| salted_login/      | Login System with password salting & JSON storage    |
+| leak_checker/      | Password Leak Checker using Have I Been Pwned API    |
+| encryption_demo/   | Fernet Encryption Demo for message encryption        |
+| (root directory)   | Early Python learning exercises (loops, if, etc.)    |
 
 ## 🗂 Repository Structure
 
