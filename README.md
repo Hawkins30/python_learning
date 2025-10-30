@@ -23,7 +23,8 @@ Each stage reflects a mix of learning, experimenting, and hands-on coding.
 ![VS Code](https://img.shields.io/badge/VS%20Code-0078D4?style=for-the-badge&logo=visualstudiocode&logoColor=white)
 ![Markdown](https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white)
 ![Terminal](https://img.shields.io/badge/Terminal-4D4D4D?style=for-the-badge&logo=powershell&logoColor=white)
-
+![cryptography](https://img.shields.io/badge/Cryptography-003366?style=for-the-badge&logo=lock&logoColor=white)
+![JSON](https://img.shields.io/badge/JSON-000000?style=for-the-badge&logo=json&logoColor=white)
 
 ---
 
