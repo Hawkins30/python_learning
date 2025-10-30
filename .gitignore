@@ -1,0 +1,17 @@
+# Ignore virtual environments
+venv/
+*/venv/
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore local settings
+.env
+*.log
+
+# Ignore temporary or OS files
+.DS_Store
+Thumbs.db

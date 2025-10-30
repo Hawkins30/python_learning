@@ -1,0 +1,12 @@
+{
+    "": {
+        "salt": "87f6ac9206b4de6b8ea56819652a8cb0",
+        "hash": "b85e1cdea0d27b28762e0346debce63022547a8d3be5ee684b3a1c5000821ae7",
+        "otp_secret": "S6NQF2GUCA6XH62PFHHJPUL757MO7FS2"
+    },
+    "1": {
+        "salt": "c00ac12f5cb601ec1a4decd266fc5faf",
+        "hash": "13a73e21c5da0d484eb7961a45ded3609dea9ae9b180c8a18c54626964459a95",
+        "otp_secret": "7KQVMXF34FBJGHREWO7STXC66PMQCS2X"
+    }
+}

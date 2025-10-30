@@ -1,0 +1,10 @@
+{
+    "Mike": {
+        "salt": "562aa62b17d1828b5740934657ac8c31",
+        "hash": "db3a91316c3b19d4f8f181e6b70b51982386fa758f09c8fff7ea4d8c5881dbb1"
+    },
+    "Alex": {
+        "salt": "85015b08d68ae1946a86372af70f1458",
+        "hash": "c16f8e954fe2733ae00ad77373fb0bfcb39446f7338b21a32eeb2a5970f1bde3"
+    }
+}
