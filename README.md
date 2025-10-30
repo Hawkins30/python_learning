@@ -151,6 +151,14 @@ Day 14:
   - Ensured that any tampering invalidates the signature.
   - Strengthened understanding of real-world identity verification and trust in communication systems.
 
+SECURE FILE TRANSFER SYSTEM
+---------------------------
+Day 15:
+  - Combined encryption and digital signatures into one workflow.
+  - Built a secure file transfer system similar to HTTPS principles.
+  - Encrypted files using Fernet (symmetric key) and protected the key with RSA.
+  - Digitally signed files with the sender’s private key and verified with the sender’s public key.
+  - Ensured data confidentiality, authenticity, and integrity during transfer.
 
 ## 🧩 Projects
 
@@ -230,6 +238,12 @@ Day 14:
 - Prevents message forgery and detects tampering.
 - Introduces cryptographic integrity and non-repudiation.
 
+### 📦 Project 15: Secure File Transfer System
+- Combined symmetric (Fernet) and asymmetric (RSA) encryption methods.
+- Encrypted files for transfer, digitally signed them, and verified on receipt.
+- Prevented tampering or impersonation through signature verification.
+- Mimics real-world secure data transmission (similar to HTTPS or email encryption).
+
 NEXT STEPS
 ----------
 
@@ -258,7 +272,8 @@ NEXT STEPS
 | Project 12: 2FA Authentication    | Added two-factor authentication using OTP codes   | ✅ Complete  |
 | Project 13: Encrypted Messaging   | Created encrypted messaging system with RSA keys  | ✅ Complete  |
 | Project 14: Digital Signatures    | Built message signing & verification system       | ✅ Complete  |
-| Next Project                      | Secure file transfer with encryption & signatures | 🔜 Upcoming  |
+| Project 15: Secure File Transfer  | Combined encryption & signatures for file transfer| ✅ Complete  |
+| Next Project                      | Build Secure Chat with Real-Time Message Exchange | 🔜 Upcoming  |
 
 ----------------------------------------------------
 🧩 PROJECTS IN THIS REPOSITORY
@@ -279,6 +294,7 @@ NEXT STEPS
 | two_factor_auth/   | Two-Factor Authentication System (password + OTP)        |
 | encrypted_messaging/   | Encrypted Messaging System with RSA Key Exchange         |
 | digital_signatures/    | Digital Signature & Message Authentication System        |
+| secure_file_transfer/   | Secure File Transfer System (Encryption + Signing)       |
 | (root directory)   | Early Python learning exercises (loops, if, etc.)        |
 
 ## 🗂 Repository Structure
@@ -298,6 +314,7 @@ A --> L[cloud_storage]
 A --> M[two_factor_auth]
 A --> N[encrypted_messaging]
 A --> O[digital_signatures]
+A --> P[secure_file_transfer]
 A --> G[README.md]
 
 B --> B1[file_integrity_checker.py]
@@ -314,6 +331,7 @@ L --> L1[cloud_storage.py]
 M --> M1[two_factor_auth.py]
 N --> N1[encrypted_messaging.py]
 O --> O1[digital_signatures.py]
+P --> P1[secure_file_transfer.py]
 ```
 
 ## 🎯 Current Learning K --> K1[secure_sharing.py]Focus
