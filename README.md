@@ -88,6 +88,16 @@ Day 7:
   - Implemented key generation, encryption, and decryption.
   - Stored keys in a file for safe reuse.
 
+FILE ENCRYPTION
+---------------
+Day 8:
+  - Learned how to encrypt and decrypt entire files.
+  - Used `cryptography.Fernet` for symmetric file encryption.
+  - Practised reading/writing binary data safely.
+  - Built a menu-based tool for secure file handling.
+  - Strengthened understanding of real-world encryption workflows.
+
+
 ## 🧩 Projects
 
 ### 🧱 Project 1: Password Strength Checker
@@ -124,6 +134,11 @@ Day 7:
 - Implemented secure key generation and storage.
 - Explored difference between encryption and hashing.
 
+### 🧱 Project 8: File Encryption & Decryption Tool
+- Created a utility to encrypt and decrypt any text file.
+- Implemented safe key storage and binary file operations.
+- Used Fernet symmetric encryption for data confidentiality.
+
 NEXT STEPS
 ----------
 
@@ -145,6 +160,8 @@ NEXT STEPS
 | Project 5: Salted JSON Login    | Added password salting and JSON-based storage     | ✅ Complete  |
 | Project 6: Password Leak Checker | Checked passwords against breach database | ✅ Complete |
 | Project 7: Fernet Encryption Demo | Implemented message encryption & decryption | ✅ Complete |
+| Project 8: File Encryption Tool | Encrypted and decrypted full files securely       | ✅ Complete  |
+| Next Project                    | Secure file storage & multi-user encryption       | 🔜 Upcoming  |
 
 ----------------------------------------------------
 🧩 PROJECTS IN THIS REPOSITORY
@@ -159,6 +176,7 @@ NEXT STEPS
 | leak_checker/      | Password Leak Checker using Have I Been Pwned API    |
 | encryption_demo/   | Fernet Encryption Demo for message encryption        |
 | (root directory)   | Early Python learning exercises (loops, if, etc.)    |
+| file_encryption/   | File Encryption & Decryption Tool (Fernet-based)     |
 
 ## 🗂 Repository Structure
 
@@ -170,6 +188,7 @@ A --> D[secure_login]
 A --> E[salted_login]
 A --> F[leak_checker]
 A --> H[encryption_demo]
+A --> I[file_encryption]
 A --> G[README.md]
 
 B --> B1[file_integrity_checker.py]
@@ -179,6 +198,7 @@ D --> D1[secure_login.py]
 E --> E1[salted_login.py]
 F --> F1[leak_checker.py]
 H --> H1[encryption_demo.py]
+I --> I1[file_encryption.py]
 ```
 
 ## 🎯 Current Learning Focus
