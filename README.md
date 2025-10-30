@@ -187,6 +187,15 @@ Day 18:
   - Stored encrypted file data safely in a JSON vault file.
   - Ensured files cannot be accessed or decrypted without the correct password.
 
+SECURE KEYCHAIN & PASSWORD MANAGER
+----------------------------------
+Day 19:
+  - Built a local, encrypted password manager protected by a master password.
+  - Used PBKDF2 to derive a cryptographic key from the master password.
+  - Encrypted all saved passwords using Fernet symmetric encryption.
+  - Implemented add, retrieve, view, and delete functionality for stored accounts.
+  - Learned how password managers like KeePass or Bitwarden protect local data.
+
 ## 🧩 Projects
 
 ### 🧱 Project 1: Password Strength Checker
@@ -290,6 +299,13 @@ Day 18:
 - Stored encrypted content securely in JSON format with unique salt values.
 - Prevents unauthorized access even if vault files are stolen.
 
+### 🔑 Project 19: Secure Keychain & Password Manager
+- Created a secure local password vault protected by a master password.
+- Used PBKDF2 + Fernet to encrypt and decrypt account credentials.
+- Stored account data safely in encrypted JSON format.
+- Supported adding, viewing, retrieving, and deleting passwords.
+- Demonstrates principles behind real-world password management tools.
+
 NEXT STEPS
 ----------
 
@@ -322,7 +338,8 @@ NEXT STEPS
 | Project 16: Secure Chat System    | Real-time encrypted messaging using sockets       | ✅ Complete  |
 | Project 17: Secure Email System   | Combined RSA, Fernet, and signatures for emails   | ✅ Complete  |
 | Project 18: Secure File Vault     | Password-protected encrypted vault system         | ✅ Complete  |
-| Next Project                      | Secure Keychain & Password Manager                | 🔜 Upcoming  |
+| Project 19: Secure Keychain       | Local encrypted password manager (PBKDF2 + Fernet)| ✅ Complete  |
+| Next Project                      | Secure Notes App (Encrypted Text Storage)         | 🔜 Upcoming  |
 
 ----------------------------------------------------
 🧩 PROJECTS IN THIS REPOSITORY
@@ -347,6 +364,7 @@ NEXT STEPS
 | secure_chat/            | Secure Real-Time Chat System (Encrypted Client/Server)   |
 | secure_email/           | Secure Email System (Encryption + Signatures)            |
 | secure_vault/           | Secure File Vault (Password-Protected Storage)           |
+| secure_keychain/        | Secure Keychain & Password Manager (PBKDF2 + Fernet)     |
 | (root directory)   | Early Python learning exercises (loops, if, etc.)        |
 
 ## 🗂 Repository Structure
@@ -370,6 +388,7 @@ A --> P[secure_file_transfer]
 A --> Q[secure_chat]
 A --> R[secure_email]
 A --> S[secure_vault]
+A --> T[secure_keychain]
 A --> G[README.md]
 
 B --> B1[file_integrity_checker.py]
@@ -391,6 +410,7 @@ Q --> Q1[server.py]
 Q --> Q2[client.py]
 R --> R1[secure_email.py]
 S --> S1[secure_vault.py]
+T --> T1[secure_keychain.py]
 ```
 
 ## 🎯 Current Learning
