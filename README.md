@@ -142,6 +142,15 @@ Day 13:
   - Stored messages in encrypted form and decrypted only with the recipient’s private key.
   - Gained an understanding of public key exchange and secure communication principles.
 
+DIGITAL SIGNATURES & MESSAGE AUTHENTICATION
+-------------------------------------------
+Day 14:
+  - Learned how to digitally sign messages using RSA private keys.
+  - Built a system to verify message authenticity with public keys.
+  - Implemented SHA-256 hashing and PSS padding for secure signatures.
+  - Ensured that any tampering invalidates the signature.
+  - Strengthened understanding of real-world identity verification and trust in communication systems.
+
 
 ## 🧩 Projects
 
@@ -215,6 +224,11 @@ Day 13:
 - Messages are encrypted with the recipient’s public key and decrypted with their private key.
 - Simulates the foundation of modern secure messaging apps.
 
+### 🪶 Project 14: Digital Signatures & Message Authentication
+- Implemented digital signatures using RSA private/public key pairs.
+- Messages are signed by the sender and verified by recipients.
+- Prevents message forgery and detects tampering.
+- Introduces cryptographic integrity and non-repudiation.
 
 NEXT STEPS
 ----------
@@ -243,7 +257,8 @@ NEXT STEPS
 | Project 11: Cloud Storage System  | Built secure cloud storage & key management       | ✅ Complete  |
 | Project 12: 2FA Authentication    | Added two-factor authentication using OTP codes   | ✅ Complete  |
 | Project 13: Encrypted Messaging   | Created encrypted messaging system with RSA keys  | ✅ Complete  |
-| Next Project                      | Digital signatures & message authentication       | 🔜 Upcoming  |
+| Project 14: Digital Signatures    | Built message signing & verification system       | ✅ Complete  |
+| Next Project                      | Secure file transfer with encryption & signatures | 🔜 Upcoming  |
 
 ----------------------------------------------------
 🧩 PROJECTS IN THIS REPOSITORY
@@ -263,6 +278,7 @@ NEXT STEPS
 | cloud_storage/     | Secure Cloud Storage & Key Management System             |
 | two_factor_auth/   | Two-Factor Authentication System (password + OTP)        |
 | encrypted_messaging/   | Encrypted Messaging System with RSA Key Exchange         |
+| digital_signatures/    | Digital Signature & Message Authentication System        |
 | (root directory)   | Early Python learning exercises (loops, if, etc.)        |
 
 ## 🗂 Repository Structure
@@ -281,6 +297,7 @@ A --> K[secure_sharing]
 A --> L[cloud_storage]
 A --> M[two_factor_auth]
 A --> N[encrypted_messaging]
+A --> O[digital_signatures]
 A --> G[README.md]
 
 B --> B1[file_integrity_checker.py]
@@ -296,6 +313,7 @@ K --> K1[secure_sharing.py]
 L --> L1[cloud_storage.py]
 M --> M1[two_factor_auth.py]
 N --> N1[encrypted_messaging.py]
+O --> O1[digital_signatures.py]
 ```
 
 ## 🎯 Current Learning K --> K1[secure_sharing.py]Focus
