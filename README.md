@@ -97,6 +97,14 @@ Day 8:
   - Built a menu-based tool for secure file handling.
   - Strengthened understanding of real-world encryption workflows.
 
+MULTI-USER ENCRYPTED STORAGE
+----------------------------
+Day 9:
+  - Combined password hashing, salting, JSON storage, and Fernet encryption.
+  - Built a multi-user login system with individual encryption keys.
+  - Implemented file encryption and decryption per user.
+  - Added layered menus and secure credential management.
+  - Strengthened understanding of applied cryptography and user data isolation.
 
 ## 🧩 Projects
 
@@ -139,6 +147,12 @@ Day 8:
 - Implemented safe key storage and binary file operations.
 - Used Fernet symmetric encryption for data confidentiality.
 
+### 🧳 Project 9: Multi-User Encrypted File Storage System
+- Combined authentication, hashing, salting, and encryption into one system.
+- Each user has their own Fernet key for encrypting/decrypting files.
+- Supports registration, login, logout, file encryption, and decryption.
+- Demonstrates real-world secure storage workflow.
+
 NEXT STEPS
 ----------
 
@@ -161,7 +175,8 @@ NEXT STEPS
 | Project 6: Password Leak Checker | Checked passwords against breach database | ✅ Complete |
 | Project 7: Fernet Encryption Demo | Implemented message encryption & decryption | ✅ Complete |
 | Project 8: File Encryption Tool | Encrypted and decrypted full files securely       | ✅ Complete  |
-| Next Project                    | Secure file storage & multi-user encryption       | 🔜 Upcoming  |
+| Project 9: Multi-User Storage     | Built multi-user encrypted file storage system    | ✅ Complete  |
+| Next Project                      | Secure file sharing & access logging              | 🔜 Upcoming  |
 
 ----------------------------------------------------
 🧩 PROJECTS IN THIS REPOSITORY
@@ -175,9 +190,10 @@ NEXT STEPS
 | salted_login/      | Login System with password salting & JSON storage    |
 | leak_checker/      | Password Leak Checker using Have I Been Pwned API    |
 | encryption_demo/   | Fernet Encryption Demo for message encryption        |
-| (root directory)   | Early Python learning exercises (loops, if, etc.)    |
 | file_encryption/   | File Encryption & Decryption Tool (Fernet-based)     |
-
+| secure_storage/    | Multi-User Encrypted File Storage System              
+| (root directory)   | Early Python learning exercises (loops, if, etc.)        |
+   |
 ## 🗂 Repository Structure
 
 ```mermaid
@@ -189,6 +205,7 @@ A --> E[salted_login]
 A --> F[leak_checker]
 A --> H[encryption_demo]
 A --> I[file_encryption]
+A --> J[secure_storage]
 A --> G[README.md]
 
 B --> B1[file_integrity_checker.py]
@@ -199,6 +216,7 @@ E --> E1[salted_login.py]
 F --> F1[leak_checker.py]
 H --> H1[encryption_demo.py]
 I --> I1[file_encryption.py]
+J --> J1[secure_storage.py]
 ```
 
 ## 🎯 Current Learning Focus
