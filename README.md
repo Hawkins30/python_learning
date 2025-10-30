@@ -133,6 +133,16 @@ Day 12:
   - Strengthened user authentication by requiring both password and OTP.
   - Learned how 2FA enhances real-world account security.
 
+ENCRYPTED MESSAGING SYSTEM
+--------------------------
+Day 13:
+  - Learned asymmetric encryption (RSA public/private key cryptography).
+  - Built a secure encrypted messaging system between two users.
+  - Implemented key generation, message encryption, and decryption.
+  - Stored messages in encrypted form and decrypted only with the recipient’s private key.
+  - Gained an understanding of public key exchange and secure communication principles.
+
+
 ## 🧩 Projects
 
 ### 🧱 Project 1: Password Strength Checker
@@ -198,6 +208,14 @@ Day 12:
 - Users receive a unique secret key for use with an Authenticator app.
 - Demonstrates real-world multi-step authentication workflow.
 
+### 💬 Project 13: Encrypted Messaging System with Key Exchange
+- Created a secure encrypted messaging system using RSA key pairs.
+- Implemented asymmetric encryption for end-to-end privacy.
+- Each user has a private key (kept secret) and a public key (shared).
+- Messages are encrypted with the recipient’s public key and decrypted with their private key.
+- Simulates the foundation of modern secure messaging apps.
+
+
 NEXT STEPS
 ----------
 
@@ -224,7 +242,8 @@ NEXT STEPS
 | Project 10: Secure Sharing & Logs | Added file sharing between users with access logs | ✅ Complete  |
 | Project 11: Cloud Storage System  | Built secure cloud storage & key management       | ✅ Complete  |
 | Project 12: 2FA Authentication    | Added two-factor authentication using OTP codes   | ✅ Complete  |
-| Next Project                      | Encrypted messaging system with key exchange      | 🔜 Upcoming  |
+| Project 13: Encrypted Messaging   | Created encrypted messaging system with RSA keys  | ✅ Complete  |
+| Next Project                      | Digital signatures & message authentication       | 🔜 Upcoming  |
 
 ----------------------------------------------------
 🧩 PROJECTS IN THIS REPOSITORY
@@ -243,6 +262,7 @@ NEXT STEPS
 | secure_sharing/    | Secure File Sharing & Access Logging System              |
 | cloud_storage/     | Secure Cloud Storage & Key Management System             |
 | two_factor_auth/   | Two-Factor Authentication System (password + OTP)        |
+| encrypted_messaging/   | Encrypted Messaging System with RSA Key Exchange         |
 | (root directory)   | Early Python learning exercises (loops, if, etc.)        |
 
 ## 🗂 Repository Structure
@@ -260,6 +280,7 @@ A --> J[secure_storage]
 A --> K[secure_sharing]
 A --> L[cloud_storage]
 A --> M[two_factor_auth]
+A --> N[encrypted_messaging]
 A --> G[README.md]
 
 B --> B1[file_integrity_checker.py]
@@ -274,6 +295,7 @@ J --> J1[secure_storage.py]
 K --> K1[secure_sharing.py]
 L --> L1[cloud_storage.py]
 M --> M1[two_factor_auth.py]
+N --> N1[encrypted_messaging.py]
 ```
 
 ## 🎯 Current Learning K --> K1[secure_sharing.py]Focus
