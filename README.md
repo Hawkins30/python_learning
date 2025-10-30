@@ -115,6 +115,15 @@ Day 10:
   - Implemented JSON-based logging for audit trails.
   - Strengthened understanding of user accountability in cybersecurity tools.
 
+SECURE CLOUD STORAGE & KEY MANAGEMENT
+-------------------------------------
+Day 11:
+  - Learned how to manage encryption keys securely for each user.
+  - Built a local “cloud” storage system using encrypted file uploads.
+  - Implemented key generation, loading, and revocation.
+  - Added versioned file uploads and secure downloads.
+  - Strengthened understanding of real-world key management principles.
+
 ## 🧩 Projects
 
 ### 🧱 Project 1: Password Strength Checker
@@ -168,6 +177,11 @@ Day 10:
 - Enabled sharing between users with individual keys.
 - Created a log viewer to audit file access history.
 
+### ☁️ Project 11: Secure Cloud Storage & Key Management System
+- Created a secure, local “cloud” file storage system.
+- Implemented per-user encryption key management (generate, load, revoke).
+- Added file upload, download, and versioning using Fernet encryption.
+- Simulated a real-world secure storage and key infrastructure.
 
 NEXT STEPS
 ----------
@@ -193,7 +207,8 @@ NEXT STEPS
 | Project 8: File Encryption Tool | Encrypted and decrypted full files securely       | ✅ Complete  |
 | Project 9: Multi-User Storage     | Built multi-user encrypted file storage system    | ✅ Complete  |
 | Project 10: Secure Sharing & Logs | Added file sharing between users with access logs | ✅ Complete  |
-| Next Project                      | Secure cloud storage and key management system    | 🔜 Upcoming  |
+| Project 11: Cloud Storage System  | Built secure cloud storage & key management       | ✅ Complete  |
+| Next Project                      | Two-Factor Authentication for user logins         | 🔜 Upcoming  |
 
 ----------------------------------------------------
 🧩 PROJECTS IN THIS REPOSITORY
@@ -210,6 +225,7 @@ NEXT STEPS
 | file_encryption/   | File Encryption & Decryption Tool (Fernet-based)     |
 | secure_storage/    | Multi-User Encrypted File Storage System              
 | secure_sharing/    | Secure File Sharing & Access Logging System              |
+| cloud_storage/     | Secure Cloud Storage & Key Management System             |
 | (root directory)   | Early Python learning exercises (loops, if, etc.)        |
    |
 ## 🗂 Repository Structure
@@ -225,6 +241,7 @@ A --> H[encryption_demo]
 A --> I[file_encryption]
 A --> J[secure_storage]
 A --> K[secure_sharing]
+A --> L[cloud_storage]
 A --> G[README.md]
 
 B --> B1[file_integrity_checker.py]
@@ -237,6 +254,7 @@ H --> H1[encryption_demo.py]
 I --> I1[file_encryption.py]
 J --> J1[secure_storage.py]
 K --> K1[secure_sharing.py]
+L --> L1[cloud_storage.py]
 ```
 
 ## 🎯 Current Learning K --> K1[secure_sharing.py]Focus
