@@ -35,6 +35,16 @@ Each stage reflects a mix of learning, experimenting, and hands-on coding.
 📘 LEARNING TIMELINE
 ----------------------------------------------------
 
+| Phase                              | Focus                            | Summary                                                              |
+| ---------------------------------- | -------------------------------- | -------------------------------------------------------------------- |
+| **Setup & Basics**                 | Python Fundamentals              | Installed environment, learned print(), variables, loops, and logic. |
+| **Phase 1: Foundations**           | Security Fundamentals            | Built password tools, file hashing, and login systems.               |
+| **Phase 2: Encryption Layer**      | Cryptography & Data Protection   | Applied hashing, salting, and encryption to real use cases.          |
+| **Phase 3: Communication Systems** | Secure Messaging & File Transfer | Implemented sockets, RSA encryption, and signature verification.     |
+| **Phase 4: Application Tools**     | Secure User Applications         | Created encrypted vaults, keychains, and note systems.               |
+
+## Phase 1
+
 SETUP & BASICS
 --------------
 Day 1:
@@ -322,13 +332,19 @@ Day 20:
 - Supported creating, viewing, editing, and deleting notes securely.
 - Demonstrates how encrypted cloud note apps handle local storage security.
 
-NEXT STEPS
-----------
-
-
 ----------------------------------------------------
 📊 SUMMARY OF PROGRESS
 ----------------------------------------------------
+
+| Category       | Skills Developed                    | Tools & Libraries   |
+| -------------- | ----------------------------------- | ------------------- |
+| Fundamentals   | Variables, loops, conditionals, I/O | Python Core         |
+| Data Handling  | JSON, file operations               | OS, JSON            |
+| Authentication | Passwords, hashing, salting, OTP    | hashlib, pyotp      |
+| Cryptography   | Symmetric/Asymmetric Encryption     | cryptography, RSA   |
+| Networking     | Secure communication channels       | sockets             |
+| Applications   | Secure tools & utilities            | PBKDF2, Fernet, CLI |
+
 
 | Topic                           | Description                                       | Status       |
 |---------------------------------|---------------------------------------------------|---------------|
@@ -385,71 +401,95 @@ NEXT STEPS
 | secure_notes/           | Secure Notes App (Encrypted Text Storage)                |
 | (root directory)   | Early Python learning exercises (loops, if, etc.)        |
 
-## 🗂 Repository Structure
+## 🗂 Project Relationships
 
 ```mermaid
 graph TD
-A[python_learning] --> B[security_tools]
-A --> C[login_system]
-A --> D[secure_login]
-A --> E[salted_login]
-A --> F[leak_checker]
-A --> H[encryption_demo]
-A --> I[file_encryption]
-A --> J[secure_storage]
-A --> K[secure_sharing]
-A --> L[cloud_storage]
-A --> M[two_factor_auth]
-A --> N[encrypted_messaging]
-A --> O[digital_signatures]
-A --> P[secure_file_transfer]
-A --> Q[secure_chat]
-A --> R[secure_email]
-A --> S[secure_vault]
-A --> T[secure_keychain]
-A --> U[secure_notes]
-A --> G[README.md]
+  subgraph Phase1["🧩 Foundations"]
+    P1["1️⃣ Password Strength Checker"]
+    P2["2️⃣ File Integrity Checker"]
+    P3["3️⃣ Simple Login System"]
+    P4["4️⃣ Secure Login System"]
+    P5["5️⃣ Salted JSON Login"]
+    P6["6️⃣ Password Leak Checker"]
+  end
 
-B --> B1[file_integrity_checker.py]
-B --> B2[password_strength_checker.py]
-C --> C1[simple_login.py]
-D --> D1[secure_login.py]
-E --> E1[salted_login.py]
-F --> F1[leak_checker.py]
-H --> H1[encryption_demo.py]
-I --> I1[file_encryption.py]
-J --> J1[secure_storage.py]
-K --> K1[secure_sharing.py]
-L --> L1[cloud_storage.py]
-M --> M1[two_factor_auth.py]
-N --> N1[encrypted_messaging.py]
-O --> O1[digital_signatures.py]
-P --> P1[secure_file_transfer.py]
-Q --> Q1[server.py]
-Q --> Q2[client.py]
-R --> R1[secure_email.py]
-S --> S1[secure_vault.py]
-T --> T1[secure_keychain.py]
-U --> U1[secure_notes.py]
+  subgraph Phase2["🔐 Encryption & Hashing"]
+    P7["7️⃣ Fernet Encryption Demo"]
+    P8["8️⃣ File Encryption Tool"]
+    P9["9️⃣ Multi-User Encrypted Storage"]
+    P10["🔟 Secure Sharing & Logs"]
+  end
+
+  subgraph Phase3["🌐 Network & Communication Security"]
+    P11["11️⃣ Cloud Storage System"]
+    P12["12️⃣ Two-Factor Authentication"]
+    P13["13️⃣ Encrypted Messaging"]
+    P14["14️⃣ Digital Signatures"]
+    P15["15️⃣ Secure File Transfer"]
+    P16["16️⃣ Secure Chat System"]
+    P17["17️⃣ Secure Email System"]
+  end
+
+  subgraph Phase4["📦 Secure Applications"]
+    P18["18️⃣ Secure File Vault"]
+    P19["19️⃣ Secure Keychain"]
+    P20["20️⃣ Secure Notes App"]
+  end
+
+  P1 --> P2
+  P2 --> P3
+  P3 --> P4
+  P4 --> P5
+  P5 --> P6
+  P6 --> P7
+  P7 --> P8
+  P8 --> P9
+  P9 --> P10
+  P10 --> P11
+  P11 --> P12
+  P12 --> P13
+  P13 --> P14
+  P14 --> P15
+  P15 --> P16
+  P16 --> P17
+  P17 --> P18
+  P18 --> P19
+  P19 --> P20
 ```
-
-## 🎯 Current Learning
-- Deepen understanding of Python fundamentals.
-- Learn secure coding and file handling.
-- Explore cybersecurity tools and automation.
-- Build small utilities for personal and educational use.
-
 ----------------------------------------------------
-🚀 NEXT GOALS
+🏁 MILESTONE SUMMARY
 ----------------------------------------------------
+
+After 20 projects, this repository now contains a complete foundation in Python and applied cybersecurity principles.  
+Over the course of this journey, I’ve learned:
+
+- Python fundamentals (variables, logic, loops, functions)
+- File handling, JSON storage, and user authentication
+- Password hashing, salting, and encryption (SHA-256, PBKDF2, Fernet)
+- Network communication (sockets, clients, servers)
+- Digital signatures and message integrity
+- Secure system design and user input validation
+- Local encrypted data management for vaults, chat, and notes
+
+This concludes **Phase 1: Core Security Tools in Python.**
+
+Next up:  
+**Phase 2 — Building a GUI Security Suite**  
+Using **Tkinter** and **Flask**, I’ll turn these CLI tools into a full desktop and web application — combining encryption, login systems, and user interfaces into one cohesive suite.
 
 ----------------------------------------------------
 📅 SNAPSHOT
 ----------------------------------------------------
 
-Start Date: October 2025  
-Current Progress: 6 Projects Completed  
-Next Milestone: Encryption Demo (Fernet) and Secure File Handling  
+| Stat                | Detail                  |
+| ------------------- | ----------------------- |
+| Start Date          | October 2025            |
+| Projects Completed  | 20                      |
+| Total Lines of Code | ~2,000+                 |
+| Current Focus       | Secure App Development  |
+| Next Milestone      | GUI + Flask Integration |
+
 
 ----------------------------------------------------
 📂 REPOSITORY
