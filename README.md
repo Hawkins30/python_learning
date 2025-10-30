@@ -124,6 +124,15 @@ Day 11:
   - Added versioned file uploads and secure downloads.
   - Strengthened understanding of real-world key management principles.
 
+TWO-FACTOR AUTHENTICATION (2FA)
+-------------------------------
+Day 12:
+  - Implemented Two-Factor Authentication (2FA) using time-based one-time passwords (TOTP).
+  - Used the `pyotp` library to generate and verify 6-digit codes.
+  - Integrated OTP verification with existing login systems.
+  - Strengthened user authentication by requiring both password and OTP.
+  - Learned how 2FA enhances real-world account security.
+
 ## 🧩 Projects
 
 ### 🧱 Project 1: Password Strength Checker
@@ -183,6 +192,12 @@ Day 11:
 - Added file upload, download, and versioning using Fernet encryption.
 - Simulated a real-world secure storage and key infrastructure.
 
+### 🔢 Project 12: Two-Factor Authentication (2FA) System
+- Built a password + OTP-based authentication system using `pyotp`.
+- Added time-based One-Time Passwords (TOTP) for extra security.
+- Users receive a unique secret key for use with an Authenticator app.
+- Demonstrates real-world multi-step authentication workflow.
+
 NEXT STEPS
 ----------
 
@@ -208,7 +223,8 @@ NEXT STEPS
 | Project 9: Multi-User Storage     | Built multi-user encrypted file storage system    | ✅ Complete  |
 | Project 10: Secure Sharing & Logs | Added file sharing between users with access logs | ✅ Complete  |
 | Project 11: Cloud Storage System  | Built secure cloud storage & key management       | ✅ Complete  |
-| Next Project                      | Two-Factor Authentication for user logins         | 🔜 Upcoming  |
+| Project 12: 2FA Authentication    | Added two-factor authentication using OTP codes   | ✅ Complete  |
+| Next Project                      | Encrypted messaging system with key exchange      | 🔜 Upcoming  |
 
 ----------------------------------------------------
 🧩 PROJECTS IN THIS REPOSITORY
@@ -226,6 +242,7 @@ NEXT STEPS
 | secure_storage/    | Multi-User Encrypted File Storage System              
 | secure_sharing/    | Secure File Sharing & Access Logging System              |
 | cloud_storage/     | Secure Cloud Storage & Key Management System             |
+| two_factor_auth/   | Two-Factor Authentication System (password + OTP)        |
 | (root directory)   | Early Python learning exercises (loops, if, etc.)        |
 
 ## 🗂 Repository Structure
@@ -242,6 +259,7 @@ A --> I[file_encryption]
 A --> J[secure_storage]
 A --> K[secure_sharing]
 A --> L[cloud_storage]
+A --> M[two_factor_auth]
 A --> G[README.md]
 
 B --> B1[file_integrity_checker.py]
@@ -255,6 +273,7 @@ I --> I1[file_encryption.py]
 J --> J1[secure_storage.py]
 K --> K1[secure_sharing.py]
 L --> L1[cloud_storage.py]
+M --> M1[two_factor_auth.py]
 ```
 
 ## 🎯 Current Learning K --> K1[secure_sharing.py]Focus
